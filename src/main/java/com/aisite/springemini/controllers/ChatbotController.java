@@ -13,7 +13,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class ChatbotController {
 
-    private String keyGemini = System.getenv("GEMINI_KEY"); //"AIzaSyAY90uaQnIn_cNsSXFt-ttuBdJ1fE9orOQ";
+    private String keyGemini = System.getenv("GEMINI_KEY");
 
     public void teste(){
         System.out.println(keyGemini);
